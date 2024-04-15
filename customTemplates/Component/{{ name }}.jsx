@@ -1,4 +1,4 @@
-import '../assets/css/main.css'
+//import '../assets/css/{{name}}.css'
 
 export const {{name}} = () => {
 
