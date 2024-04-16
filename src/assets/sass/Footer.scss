@@ -1,6 +1,8 @@
+@import "./partials/common";
+
 .Footer{
     display: flex;
     justify-content: center;
     padding: 25px 40px;
-    background-color: coral;
+    background-color: $main-color;
 }
