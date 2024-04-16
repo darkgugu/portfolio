@@ -1,5 +1,5 @@
 import '../assets/css/Intro.css'
-import portrait from '../assets/images/portrait.jpg'
+import portrait from '../assets/images/portrait.png'
 
 export const Intro = () => {
 	return (

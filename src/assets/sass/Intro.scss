@@ -1,5 +1,13 @@
 .Intro{
+    //border: 1px solid black;
+    display: flex;
+    align-items: center;
     img{
-        width: 400px;
+        width: 600px;
+    }
+    p{
+        line-height: 70px;
+        font-size: 1.5em;
+        padding-left: 40px;
     }
 }
