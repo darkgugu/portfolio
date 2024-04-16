@@ -1,12 +1,32 @@
+@import "./partials/common";
+
 .Header{
     display: flex;
     justify-content: space-between;
     padding: 25px 40px;
-    background-color: coral;
+    background-color: $main-color;
     nav{
         //background-color: lightblue;
         width: 60%;
         display: flex;
         justify-content: space-around;
+    }
+    .logoName{
+        font-weight: 700;
+        font-size: 1.5em;
+        color: $secondary-color;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.3em;
+    }
+    button{
+        width: 5%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 1em;
+        background-color: $secondary-color;
+        color: aliceblue;
     }
 }

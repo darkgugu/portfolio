@@ -2,10 +2,28 @@
   display: flex;
   justify-content: space-between;
   padding: 25px 40px;
-  background-color: coral;
+  background-color: #DDBDD5;
 }
 .Header nav {
   width: 60%;
   display: flex;
   justify-content: space-around;
+}
+.Header .logoName {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #4392E6;
+}
+.Header a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+.Header button {
+  width: 5%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1em;
+  background-color: #4392E6;
+  color: aliceblue;
 }/*# sourceMappingURL=Header.css.map */
