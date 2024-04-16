@@ -24,3 +24,4 @@ yarn-error.log*
 
 /customTemplates
 /customTemplates
+customTemplates/Component/{{ name }}.jsx
