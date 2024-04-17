@@ -8,9 +8,11 @@ export const ProjectContainer = () => {
 		<div className="ProjectContainer">
 			<h2>MES PROJETS</h2>
 			<Sorter />
-			{projects.map((projet, index) => (
-				<ProjectPreview projet={projet} key={index} />
-			))}
+			<div className="projets">
+				{projects.map((projet, index) => (
+					<ProjectPreview projet={projet} key={index} />
+				))}
+			</div>
 		</div>
 	)
 }
