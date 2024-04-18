@@ -6,6 +6,13 @@
     margin: 40px;
     background-color: white;
     img{
-        width: 400px;
+        width: 100%;
+        height: 75%;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+
+    .content{
+        margin: 20px;
     }
 }

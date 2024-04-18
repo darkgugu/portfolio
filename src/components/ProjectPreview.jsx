@@ -5,6 +5,10 @@ export const ProjectPreview = ({ projet }) => {
 	return (
 		<div className="ProjectPreview">
 			<img src={importedImage} alt={projet.nom} />
+			<div className="content">
+				<p>Technos</p>
+				<p>Nom du projet</p>
+			</div>
 		</div>
 	)
 }
