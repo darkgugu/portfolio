@@ -6,17 +6,21 @@ import { Home } from './pages/Home'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import { store } from './app/store'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
 	<React.StrictMode>
-		<Router>
-			<Header />
-			<Routes>
-				<Route path="" element={<Home />} />
-			</Routes>
-			<Footer />
-		</Router>
+		<Provider store={store}>
+			<Router>
+				<Header />
+				<Routes>
+					<Route path="/portfolio" element={<Home />} />
+				</Routes>
+				<Footer />
+			</Router>
+		</Provider>
 	</React.StrictMode>
 )
 
