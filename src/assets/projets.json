@@ -1,50 +1,89 @@
 [
     {
-        "nom": "Projet 1",
-        "technos" : [
-            "react",
-            "javascript",
-            "html"
+        "nom": "OhMyFood",
+        "tags" : [
+            "html",
+            "css",
+            "sass",
+            "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
         "image": "projet1.png"
     },
     {
-        "nom": "Projet 1",
-        "technos" : [
-            "react",
-            "javascript",
-            "html"
+        "nom": "PrinIt",
+        "tags" : [
+            "js",
+            "html",
+            "css",
+            "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
         "image": "projet1.png"
     },
     {
-        "nom": "Projet 1",
-        "technos" : [
-            "react",
-            "javascript",
-            "html"
+        "nom": "Portfolio d'architecte d'intérieur",
+        "tags" : [
+            "js",
+            "html",
+            "css",
+            "sass",
+            "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
         "image": "projet1.png"
     },
     {
-        "nom": "Projet 1",
-        "technos" : [
+        "nom": "Kasa",
+        "tags" : [
             "react",
-            "javascript",
-            "html"
+            "js",
+            "html",
+            "css",
+            "sass",
+            "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
         "image": "projet1.png"
     },
     {
-        "nom": "Projet 1",
-        "technos" : [
+        "nom": "Optimisation SEO",
+        "tags" : [
+            "html",
+            "seo",
+            "scolaire"
+        ],
+        "description" : "Oe c'est un projet tkt",
+        "image": "projet1.png"
+    },
+    {
+        "nom": "Debug de site",
+        "tags" : [
+            "html",
+            "js",
+            "scolaire"
+        ],
+        "description" : "Oe c'est un projet tkt",
+        "image": "projet1.png"
+    },
+    {
+        "nom": "Argent Bank",
+        "tags" : [
             "react",
-            "javascript",
-            "html"
+            "js",
+            "html",
+            "css",
+            "scolaire",
+            "redux"
+        ],
+        "description" : "Oe c'est un projet tkt",
+        "image": "projet1.png"
+    },
+    {
+        "nom": "Journey Down the Den",
+        "tags" : [
+            "java",
+            "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
         "image": "projet1.png"
