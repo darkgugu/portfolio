@@ -11,9 +11,9 @@ export const selectionSlice = createSlice({
 		},
 		removeFromSelection: (currentState, action) => {
 			const selection = currentState.filter(
-				(item, index) => index !== action.payload
+				(item) => item !== action.payload
 			)
-			return { ...currentState, selection: selection }
+			return selection
 		},
 	},
 })

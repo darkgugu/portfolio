@@ -9,7 +9,11 @@ export const Sorter = () => {
 	const selection = useSelector(getSelection)
 
 	const addToStore = (payload) => {
-		store.dispatch(selectionSlice.actions.addToSelection(payload))
+		if (!selection.includes(payload)) {
+			store.dispatch(selectionSlice.actions.addToSelection(payload))
+		} else {
+			store.dispatch(selectionSlice.actions.removeFromSelection(payload))
+		}
 	}
 
 	return (
