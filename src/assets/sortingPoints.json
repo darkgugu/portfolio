@@ -5,5 +5,8 @@
     {"name": "js","displayName": "Javascript","image": ""},
     {"name": "html","displayName": "HTML5","image": ""},
     {"name": "css","displayName": "CSS3","image": ""},
+    {"name": "sass","displayName": "Sass","image": ""},
+    {"name": "seo","displayName": "SEO","image": ""},
+    {"name": "redux","displayName": "Redux","image": ""},
     {"name": "java","displayName": "Java","image": ""}
 ]
