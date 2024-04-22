@@ -2,7 +2,7 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import { selectionSlice } from '../slices/selectionSlice.js'
 
 let state = {
-	selection: ['test'],
+	selection: [],
 }
 
 export const store = configureStore({
