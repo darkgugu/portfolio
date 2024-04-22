@@ -14,5 +14,13 @@
 
     .content{
         margin: 20px;
+        .name{
+            font-size: 1.4em;
+            font-weight: 700;
+            margin: 7px auto;
+        }
+        .desc{
+            margin: 0 auto;
+        }
     }
 }

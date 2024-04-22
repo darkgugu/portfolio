@@ -14,4 +14,12 @@
 }
 .ProjectPreview .content {
   margin: 20px;
+}
+.ProjectPreview .content .name {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 7px auto;
+}
+.ProjectPreview .content .desc {
+  margin: 0 auto;
 }/*# sourceMappingURL=ProjectPreview.css.map */

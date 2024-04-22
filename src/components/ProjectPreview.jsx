@@ -1,4 +1,5 @@
 import '../assets/css/ProjectPreview.css'
+import '../assets/sortingPoints.json'
 
 export const ProjectPreview = ({ projet }) => {
 	const importedImage = require('../assets/images/' + projet.image)
@@ -6,8 +7,8 @@ export const ProjectPreview = ({ projet }) => {
 		<div className="ProjectPreview">
 			<img src={importedImage} alt={projet.nom} />
 			<div className="content">
-				<p>Technos</p>
-				<p>Nom du projet</p>
+				<p className="name">{projet.nom}</p>
+				<p className="desc">{projet.description}</p>
 			</div>
 		</div>
 	)
