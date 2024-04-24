@@ -8,7 +8,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "ohmyfood.png"
     },
     {
         "nom": "PrinIt",
@@ -19,7 +19,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "printit.png"
     },
     {
         "nom": "Portfolio d'architecte d'intérieur",
@@ -31,7 +31,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "sophiebluel.png"
     },
     {
         "nom": "Kasa",
@@ -44,7 +44,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "kasa.png"
     },
     {
         "nom": "Optimisation SEO",
@@ -54,7 +54,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "ninacarducci.png"
     },
     {
         "nom": "Debug de site",
@@ -64,7 +64,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "724events.png"
     },
     {
         "nom": "Argent Bank",
@@ -77,7 +77,7 @@
             "redux"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "argentbank.png"
     },
     {
         "nom": "Journey Down the Den",
@@ -86,6 +86,6 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "projet1.png"
+        "image": "jdtd.png"
     }
 ]
