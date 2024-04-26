@@ -1,12 +1,12 @@
 [
     {"name": "perso","displayName": "Projets personnels","image": ""},
     {"name": "scolaire","displayName": "Projet scolaires","image": ""},
-    {"name": "react","displayName": "React","image": ""},
-    {"name": "js","displayName": "Javascript","image": ""},
-    {"name": "html","displayName": "HTML5","image": ""},
-    {"name": "css","displayName": "CSS3","image": ""},
-    {"name": "sass","displayName": "Sass","image": ""},
-    {"name": "seo","displayName": "SEO","image": ""},
-    {"name": "redux","displayName": "Redux","image": ""},
-    {"name": "java","displayName": "Java","image": ""}
+    {"name": "react","displayName": "React","image": "react.png"},
+    {"name": "js","displayName": "Javascript","image": "js.png"},
+    {"name": "html","displayName": "HTML5","image": "html.png"},
+    {"name": "css","displayName": "CSS3","image": "css.png"},
+    {"name": "sass","displayName": "Sass","image": "sass.png"},
+    {"name": "seo","displayName": "SEO","image": "seo.png"},
+    {"name": "redux","displayName": "Redux","image": "redux.png"},
+    {"name": "java","displayName": "Java","image": "java.png"}
 ]
