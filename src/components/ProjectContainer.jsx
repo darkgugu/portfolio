@@ -9,6 +9,7 @@ import { ProjectModal } from './ProjectModal.jsx'
 
 export const ProjectContainer = () => {
 	const [isModaleOpen, setIsModaleOpen] = useState(false)
+	const [modaleProjet, setModaleProjet] = useState()
 	const selection = useSelector(getSelection)
 	let sortedProjects = projects
 	selection.forEach(
@@ -18,7 +19,8 @@ export const ProjectContainer = () => {
 			))
 	)
 
-	const openModale = () => {
+	const openModale = (projet) => {
+		setModaleProjet(projet)
 		setIsModaleOpen(true)
 	}
 
@@ -33,19 +35,22 @@ export const ProjectContainer = () => {
 								<ProjectPreview
 									projet={projet}
 									key={index}
-									onClick={() => openModale()}
+									onClick={() => openModale(projet)}
 								/>
 						  ))
 						: projects.map((projet, index) => (
 								<ProjectPreview
 									projet={projet}
 									key={index}
-									onClick={() => openModale()}
+									onClick={() => openModale(projet)}
 								/>
 						  ))}
 				</div>
 			) : (
-				<ProjectModal />
+				<ProjectModal
+					projet={modaleProjet}
+					setIsModaleOpen={setIsModaleOpen}
+				/>
 			)}
 		</div>
 	)
