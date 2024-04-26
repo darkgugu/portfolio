@@ -8,7 +8,8 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "ohmyfood.png"
+        "image": "ohmyfood.png",
+        "githubLink" : "ohmyfood"
     },
     {
         "nom": "PrinIt",
@@ -19,7 +20,8 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "printit.png"
+        "image": "printit.png",
+        "githubLink" : "printit"
     },
     {
         "nom": "Portfolio d'architecte d'intérieur",
@@ -31,7 +33,8 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "sophiebluel.png"
+        "image": "sophiebluel.png",
+        "githubLink" : "sophiebluel"
     },
     {
         "nom": "Kasa",
@@ -44,7 +47,8 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "kasa.png"
+        "image": "kasa.png",
+        "githubLink" : "kasa"
     },
     {
         "nom": "Optimisation SEO",
@@ -54,17 +58,20 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "ninacarducci.png"
+        "image": "ninacarducci.png",
+        "githubLink" : "ninacarducci"
     },
     {
         "nom": "Debug de site",
         "tags" : [
             "html",
+            "react",
             "js",
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "724events.png"
+        "image": "724events.png",
+        "githubLink" : "724events"
     },
     {
         "nom": "Argent Bank",
@@ -77,7 +84,8 @@
             "redux"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "argentbank.png"
+        "image": "argentbank.png",
+        "githubLink" : "argent-bank"
     },
     {
         "nom": "Journey Down the Den",
@@ -86,6 +94,7 @@
             "scolaire"
         ],
         "description" : "Oe c'est un projet tkt",
-        "image": "jdtd.png"
+        "image": "jdtd.png",
+        "githubLink" : "JourneyDownTheDen"
     }
 ]
