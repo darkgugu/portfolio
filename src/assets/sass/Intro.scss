@@ -10,4 +10,11 @@
         font-size: 1.5em;
         padding-left: 40px;
     }
+
+    @media (max-width: 1025px){
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+    }
 }

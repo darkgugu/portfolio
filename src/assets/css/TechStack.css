@@ -9,4 +9,13 @@
 .TechStack .technos img {
   height: 300px;
   padding: 50px;
+}
+@media (max-width: 1025px) {
+  .TechStack .technos {
+    display: flex;
+  }
+  .TechStack .technos img {
+    height: 100px;
+    padding: 0 35px;
+  }
 }/*# sourceMappingURL=TechStack.css.map */

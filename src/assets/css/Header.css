@@ -19,11 +19,15 @@
   color: black;
   font-size: 1.3em;
 }
-.Header button {
+.Header .cv-button {
   width: 5%;
   height: 40px;
   border-radius: 10px;
   font-size: 1em;
   background-color: #4392E6;
   color: aliceblue;
+}
+.Header .burger-menu {
+  width: 50px;
+  aspect-ratio: 1/1;
 }/*# sourceMappingURL=Header.css.map */

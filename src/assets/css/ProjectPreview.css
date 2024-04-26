@@ -23,4 +23,9 @@
 }
 .ProjectPreview .content .desc {
   margin: 0 auto;
+}
+@media (max-width: 1025px) {
+  .ProjectPreview {
+    width: 100%;
+  }
 }/*# sourceMappingURL=ProjectPreview.css.map */

@@ -11,4 +11,14 @@
             padding: 50px;
         }
     }
+
+    @media (max-width: 1025px){
+        .technos{
+            display: flex;
+            img{
+                height: 100px;
+                padding: 0 35px;
+            }
+        }
+    }
 }

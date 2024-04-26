@@ -1,6 +1,7 @@
 import '../assets/css/ProjectModal.css'
 import closeIcon from '../assets/images/closeIcon.png'
 import githubIcon from '../assets/images/github.png'
+import { useMediaQuery } from 'react-responsive'
 
 export const ProjectModal = ({ projet, setIsModaleOpen }) => {
 	const closeModale = () => {
@@ -18,6 +19,8 @@ export const ProjectModal = ({ projet, setIsModaleOpen }) => {
 			)
 		}
 	}
+
+	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1025px)' })
 
 	return (
 		<div className="ProjectModal">
@@ -46,7 +49,9 @@ export const ProjectModal = ({ projet, setIsModaleOpen }) => {
 						rel="noopener noreferrer"
 						href={`${githubUrl}${projet.githubLink}`}
 					>
-						Voir le projet sur Github
+						{!isTabletOrMobile
+							? 'Voir le projet sur Github'
+							: 'Github'}
 						<img src={githubIcon} alt="" />
 					</a>
 				</div>
