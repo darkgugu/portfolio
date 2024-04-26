@@ -1,7 +1,69 @@
 .ProjectModal{
     width: 80%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 2/.5;
     background-color: white;
     border-radius: 40px;
     border: 2px solid black;
+    display: flex;
+    position: relative;
+    .preview-media{
+        width: 50%;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-right: 1px solid black;
+    }
+    .content{
+        padding: 0 20px;
+        width: 100%;
+
+        h3{
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        .type{
+            margin: 0 auto;
+            font-style: italic;
+        }
+        .techno-git{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .technos-images{
+                padding: 15px 0;
+                img{
+                    height: 50px;
+                    padding-right: 10px;
+                }
+                
+            }
+
+            a{
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                background-color: lightcyan;
+                text-decoration: none;
+                color: black;
+                border: 2px solid #545454;
+                padding: 1px 6px;
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                img{
+                    height: 30px;
+                    padding: 5px;
+                }
+            }
+        }
+        .description{
+            margin: 50px 10px 0;
+        }
+    }
+    .close-icon{
+        width: 30px;
+        height: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
 }

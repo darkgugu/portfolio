@@ -1,7 +1,65 @@
 .ProjectModal {
   width: 80%;
-  aspect-ratio: 2/1;
+  aspect-ratio: 2/0.5;
   background-color: white;
   border-radius: 40px;
   border: 2px solid black;
+  display: flex;
+  position: relative;
+}
+.ProjectModal .preview-media {
+  width: 50%;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-right: 1px solid black;
+}
+.ProjectModal .content {
+  padding: 0 20px;
+  width: 100%;
+}
+.ProjectModal .content h3 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+.ProjectModal .content .type {
+  margin: 0 auto;
+  font-style: italic;
+}
+.ProjectModal .content .techno-git {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ProjectModal .content .techno-git .technos-images {
+  padding: 15px 0;
+}
+.ProjectModal .content .techno-git .technos-images img {
+  height: 50px;
+  padding-right: 10px;
+}
+.ProjectModal .content .techno-git a {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: lightcyan;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #545454;
+  padding: 1px 6px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ProjectModal .content .techno-git a img {
+  height: 30px;
+  padding: 5px;
+}
+.ProjectModal .content .description {
+  margin: 50px 10px 0;
+}
+.ProjectModal .close-icon {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }/*# sourceMappingURL=ProjectModal.css.map */
