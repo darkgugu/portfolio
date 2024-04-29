@@ -5,7 +5,7 @@ import sassIcon from '../assets/images/technos/sass.png'
 
 export const TechStack = () => {
 	return (
-		<div className="TechStack">
+		<div className="TechStack" id="stack">
 			<h2>Stack Technique</h2>
 			<div className="technos">
 				<img src={jsIcon} alt="Logo javascript" />

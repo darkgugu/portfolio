@@ -14,9 +14,9 @@ export const Header = () => {
 			{!isTabletOrMobile ? (
 				<>
 					<nav>
-						<Link>Accueil</Link>
-						<Link>Projets</Link>
-						<Link>À Propos</Link>
+						<a href="#accueil">Accueil</a>
+						<a href="#stack">Stack Technique</a>
+						<a href="#projets">Projets</a>
 					</nav>
 					<button className="cv-button" onClick={() => handleClick()}>
 						Mon CV
