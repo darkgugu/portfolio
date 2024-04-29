@@ -24,28 +24,52 @@ export const ProjectContainer = () => {
 		setIsModaleOpen(true)
 	}
 
+	const simulateClear = () => {
+		document.getElementById('clearFilters').click()
+	}
+
 	return (
-		<div className="ProjectContainer">
 			<h2>MES PROJETS</h2>
 			<Sorter />
 			{!isModaleOpen ? (
-				<div className="projets">
-					{selection.length !== 0
-						? sortedProjects.map((projet, index) => (
-								<ProjectPreview
-									projet={projet}
-									key={index}
-									onClick={() => openModale(projet)}
-								/>
-						  ))
-						: projects.map((projet, index) => (
-								<ProjectPreview
-									projet={projet}
-									key={index}
-									onClick={() => openModale(projet)}
-								/>
-						  ))}
-				</div>
+				<>
+					{selection.length !== 0 ? (
+						sortedProjects.length === 1 ? (
+							<p>1 projet est affiché</p>
+						) : sortedProjects.length === 0 ? (
+							<>
+								<p>Aucun projet ne correspond à ces critères</p>
+								<button
+									id="fakeClear"
+									onClick={() => simulateClear()}
+								>
+									Réinitialiser les filtres
+								</button>
+							</>
+						) : (
+							<p>{sortedProjects.length} projets sont affichés</p>
+						)
+					) : (
+						<p>Tous les projets sont affichés</p>
+					)}
+					<div className="projets">
+						{selection.length !== 0
+							? sortedProjects.map((projet, index) => (
+									<ProjectPreview
+										projet={projet}
+										key={index}
+										onClick={() => openModale(projet)}
+									/>
+							  ))
+							: projects.map((projet, index) => (
+									<ProjectPreview
+										projet={projet}
+										key={index}
+										onClick={() => openModale(projet)}
+									/>
+							  ))}
+					</div>
+				</>
 			) : (
 				<ProjectModal
 					projet={modaleProjet}

@@ -12,6 +12,12 @@
 .ProjectContainer h2 {
   font-size: 3em;
 }
+.ProjectContainer #fakeClear {
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+}
 @media (max-width: 1025px) {
   .ProjectContainer {
     width: 100%;

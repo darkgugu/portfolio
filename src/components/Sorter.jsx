@@ -16,6 +16,12 @@ export const Sorter = () => {
 		}
 	}
 
+	const clearFilters = () => {
+		selection.forEach((element) => {
+			store.dispatch(selectionSlice.actions.removeFromSelection(element))
+		})
+	}
+
 	return (
 		<div className="Sorter">
 			{sortingPoints.map((item, index) => (
@@ -29,6 +35,9 @@ export const Sorter = () => {
 					{item.displayName}
 				</button>
 			))}
+			<button onClick={() => clearFilters()} id="clearFilters">
+				Réinitialiser les filtres
+			</button>
 		</div>
 	)
 }
