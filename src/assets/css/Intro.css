@@ -1,3 +1,7 @@
+body button, body a, body .ProjectPreview {
+  cursor: pointer;
+}
+
 .Intro {
   display: flex;
   align-items: center;
@@ -9,6 +13,13 @@
   line-height: 70px;
   font-size: 1.5em;
   padding-left: 40px;
+}
+.Intro p .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.Intro p .title .name {
+  color: #4392E6;
 }
 @media (max-width: 1025px) {
   .Intro {

@@ -7,7 +7,7 @@
             "sass",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Site de pré-commande de menu - Mobile First",
         "image": "ohmyfood.png",
         "githubLink" : "ohmyfood"
     },
@@ -19,7 +19,7 @@
             "css",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Caroussel d'images",
         "image": "printit.png",
         "githubLink" : "printit"
     },
@@ -32,7 +32,7 @@
             "sass",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Site portfolio avec un back-end fourni",
         "image": "sophiebluel.png",
         "githubLink" : "sophiebluel"
     },
@@ -46,7 +46,7 @@
             "sass",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Site de location immobilière en React",
         "image": "kasa.png",
         "githubLink" : "kasa"
     },
@@ -57,7 +57,7 @@
             "seo",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Portfolio de photographe",
         "image": "ninacarducci.png",
         "githubLink" : "ninacarducci"
     },
@@ -69,7 +69,7 @@
             "js",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Debug et gestion de tests en React",
         "image": "724events.png",
         "githubLink" : "724events"
     },
@@ -83,7 +83,7 @@
             "scolaire",
             "redux"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "Front-end d'une application bancaire avec Redux",
         "image": "argentbank.png",
         "githubLink" : "argent-bank"
     },
@@ -93,7 +93,7 @@
             "java",
             "scolaire"
         ],
-        "description" : "Oe c'est un projet tkt",
+        "description" : "RPG en tour par tour",
         "image": "jdtd.png",
         "githubLink" : "JourneyDownTheDen"
     }
