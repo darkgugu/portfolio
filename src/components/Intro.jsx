@@ -3,7 +3,7 @@ import portrait from '../assets/images/portrait.png'
 
 export const Intro = () => {
 	return (
-		<div className="Intro">
+		<div className="Intro" id="accueil">
 			<img src={portrait} alt="Portrait Icham Duret" />
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
