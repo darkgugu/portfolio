@@ -1,3 +1,7 @@
+body button, body a, body .ProjectPreview {
+  cursor: pointer;
+}
+
 .Header {
   display: flex;
   justify-content: space-between;

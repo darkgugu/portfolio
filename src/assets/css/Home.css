@@ -1,3 +1,7 @@
+body button, body a, body .ProjectPreview {
+  cursor: pointer;
+}
+
 .Home {
   padding: 0 50px;
   background-color: #DDBDD5;

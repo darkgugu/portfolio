@@ -4,13 +4,11 @@ $main-color: #DDBDD5;
 $secondary-color: #4392E6;
 $bp-mobile: 426px;
 
-//Mixin
 
-@mixin body-margin{
-    margin-left: 50px;
-    margin-right: 50px;
+//Content
 
-    @media (max-width: $bp-mobile) {
-        margin: auto 20px auto 20px;
+body{
+    button, a, .ProjectPreview{
+        cursor: pointer;
     }
 }

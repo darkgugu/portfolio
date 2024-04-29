@@ -1,3 +1,7 @@
+body button, body a, body .ProjectPreview {
+  cursor: pointer;
+}
+
 .Footer {
   display: flex;
   justify-content: center;
