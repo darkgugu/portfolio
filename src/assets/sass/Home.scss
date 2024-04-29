@@ -3,4 +3,8 @@
 .Home{
     padding: 0 50px;
     background-color: $main-color;
+
+    @media (max-width: 1025px){
+        padding: 30px;
+    }
 }

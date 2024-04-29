@@ -66,6 +66,7 @@
 @media (max-width: 1025px) {
   .ProjectModal {
     flex-direction: column;
+    width: 100%;
   }
   .ProjectModal .preview-media {
     width: 100%;

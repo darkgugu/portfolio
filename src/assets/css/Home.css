@@ -1,4 +1,9 @@
 .Home {
   padding: 0 50px;
   background-color: #DDBDD5;
+}
+@media (max-width: 1025px) {
+  .Home {
+    padding: 30px;
+  }
 }/*# sourceMappingURL=Home.css.map */

@@ -18,4 +18,13 @@
     height: 100px;
     padding: 0 35px;
   }
+}
+@media (max-width: 426px) {
+  .TechStack .technos {
+    display: flex;
+  }
+  .TechStack .technos img {
+    height: 75px;
+    padding: 0 18px;
+  }
 }/*# sourceMappingURL=TechStack.css.map */
