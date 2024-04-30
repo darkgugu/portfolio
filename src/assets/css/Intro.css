@@ -28,4 +28,9 @@ body button, body a, body .ProjectPreview {
   .Intro img {
     width: 100%;
   }
+  .Intro p {
+    text-align: center;
+    padding: 0;
+    line-height: 53px;
+  }
 }/*# sourceMappingURL=Intro.css.map */

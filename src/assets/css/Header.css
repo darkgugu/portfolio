@@ -3,9 +3,6 @@ body button, body a, body .ProjectPreview {
 }
 
 .Header {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 40px;
   background-color: #DDBDD5;
 }
 .Header nav {
@@ -31,7 +28,35 @@ body button, body a, body .ProjectPreview {
   background-color: #4392E6;
   color: aliceblue;
 }
+.Header .burger-button {
+  height: 35px;
+}
+.Header .header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+}
+@media (max-width: 1025px) {
+  .Header .header-content {
+    padding: 25px;
+    align-items: center;
+  }
+}
 .Header .burger-menu {
-  width: 50px;
-  aspect-ratio: 1/1;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Header .burger-menu nav {
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.Header .burger-menu nav a {
+  margin: 10px;
+}
+.Header .burger-menu .cv-button {
+  width: auto;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=Header.css.map */
