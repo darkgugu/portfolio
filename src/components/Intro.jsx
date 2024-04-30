@@ -12,10 +12,10 @@ export const Intro = () => {
 				</span>
 				<br />
 				Diplômé d'OpenClassrooms en 2024, habitué du framework React, je
-				maitrise aussi bien le JavaScript que que le Sass ou
-				l'architecture Flux. En plus de mes projets Openclassrooms, j'ai
-				déjà réalisé des projets scolaires ou personnels en PHP,
-				Node.js, MySQL ou encore Java8
+				maîtrise aussi bien le JavaScript que le Sass ou l'architecture
+				Flux. En plus de mes projets Openclassrooms, j'ai déjà réalisé
+				des projets scolaires ou personnels en PHP, Node.js, MySQL ou
+				Java8
 			</p>
 		</div>
 	)

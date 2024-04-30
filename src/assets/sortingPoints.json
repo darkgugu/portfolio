@@ -1,6 +1,6 @@
 [
     {"name": "perso","displayName": "Projets personnels","image": ""},
-    {"name": "scolaire","displayName": "Projet scolaires","image": ""},
+    {"name": "scolaire","displayName": "Projets scolaires","image": ""},
     {"name": "react","displayName": "React","image": "react.png"},
     {"name": "js","displayName": "Javascript","image": "js.png"},
     {"name": "html","displayName": "HTML5","image": "html.png"},
