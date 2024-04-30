@@ -55,23 +55,7 @@ export const ProjectModal = ({ projet, setIsModaleOpen }) => {
 						<img src={githubIcon} alt="" />
 					</a>
 				</div>
-				<div className="description">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Vivamus tincidunt lectus ac odio fermentum volutpat.
-					Suspendisse at nisi convallis, condimentum risus eu, mattis
-					nulla. Duis vitae arcu tellus. In venenatis est nec mi
-					commodo dapibus. Pellentesque sit amet viverra sapien. Sed
-					dignissim tincidunt dictum. In velit purus, dapibus nec
-					tincidunt quis, iaculis ac dui. Etiam pretium iaculis
-					efficitur. Sed vehicula orci in sapien gravida, id finibus
-					augue porttitor. Etiam at nunc et quam rutrum gravida. Morbi
-					fringilla, lectus eget maximus blandit, sapien odio egestas
-					sem, vel dictum massa metus et leo. Nunc ac odio vitae ex
-					lacinia varius non quis sapien. Nullam rhoncus molestie
-					neque. Phasellus malesuada enim ut sem vehicula, sit amet
-					sodales est viverra. Vivamus ut sapien non metus cursus
-					molestie. Vivamus egestas leo ac sem hendrerit dictum.
-				</div>
+				<div className="description">{projet.descriptionLongue}</div>
 			</div>
 			<img
 				className="close-icon"

@@ -34,7 +34,7 @@ export const ProjectPreview = ({ projet, onClick }) => {
 			)}
 			<div className="content">
 				<p className="name">{projet.nom}</p>
-				<p className="desc">{projet.description}</p>
+				<p className="desc">{projet.descriptionCourte}</p>
 			</div>
 		</div>
 	)

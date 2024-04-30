@@ -7,9 +7,10 @@
             "sass",
             "scolaire"
         ],
-        "description" : "Site de pré-commande de menu - Mobile First",
+        "descriptionCourte" : "Site de pré-commande de menu - Mobile First",
         "image": "ohmyfood.png",
-        "githubLink" : "ohmyfood"
+        "githubLink" : "ohmyfood",
+        "descriptionLongue" : "Projet de site mobile (mobile-first) avec une version desktop complétement responsive. Contient plusieurs animations réalisées en CSS & SASS"
     },
     {
         "nom": "PrinIt",
@@ -19,9 +20,10 @@
             "css",
             "scolaire"
         ],
-        "description" : "Caroussel d'images",
+        "descriptionCourte" : "Caroussel d'images",
         "image": "printit.png",
-        "githubLink" : "printit"
+        "githubLink" : "printit",
+        "descriptionLongue" : "Caroussel d'images réalisé en vanilla JS pour un site d'impressions"
     },
     {
         "nom": "Portfolio d'architecte d'intérieur",
@@ -32,9 +34,10 @@
             "sass",
             "scolaire"
         ],
-        "description" : "Site portfolio avec un back-end fourni",
+        "descriptionCourte" : "Site portfolio avec un back-end fourni",
         "image": "sophiebluel.png",
-        "githubLink" : "sophiebluel"
+        "githubLink" : "sophiebluel",
+        "descriptionLongue" : "Site portfolio d'architecte avec un back-end fourni. J'ai sur ce projet réalisé toute la partie login, tri des différents projets et le CRUD : ajout/suppresion/affichage de projets"
     },
     {
         "nom": "Kasa",
@@ -46,9 +49,10 @@
             "sass",
             "scolaire"
         ],
-        "description" : "Site de location immobilière en React",
+        "descriptionCourte" : "Site de location immobilière en React",
         "image": "kasa.png",
-        "githubLink" : "kasa"
+        "githubLink" : "kasa",
+        "descriptionLongue" : "Site de location immobilière développé en React avec React Router. Projet démarré avec Create React App"
     },
     {
         "nom": "Optimisation SEO",
@@ -57,9 +61,10 @@
             "seo",
             "scolaire"
         ],
-        "description" : "Portfolio de photographe",
+        "descriptionCourte" : "Portfolio de photographe",
         "image": "ninacarducci.png",
-        "githubLink" : "ninacarducci"
+        "githubLink" : "ninacarducci",
+        "descriptionLongue" : "Optimisation SEO d'un site portfolio et audit Lighthouse, augmentation des performances, de l'accessibilité et du score SEO. Compression des images, minimisation du CSS et du JavaScript et implémentation du référencement local via schema.org"
     },
     {
         "nom": "Debug de site",
@@ -69,9 +74,10 @@
             "js",
             "scolaire"
         ],
-        "description" : "Debug et gestion de tests en React",
+        "descriptionCourte" : "Debug et gestion de tests en React",
         "image": "724events.png",
-        "githubLink" : "724events"
+        "githubLink" : "724events",
+        "descriptionLongue" : "Projet de debug d'un site d'évenementiel et gestion des tests React. Réalisation d'un cahier de recette complet pour le site"
     },
     {
         "nom": "Argent Bank",
@@ -83,9 +89,10 @@
             "scolaire",
             "redux"
         ],
-        "description" : "Front-end d'une application bancaire avec Redux",
+        "descriptionCourte" : "Front-end d'une application bancaire avec Redux",
         "image": "argentbank.png",
-        "githubLink" : "argent-bank"
+        "githubLink" : "argent-bank",
+        "descriptionLongue" : "Réalisation du front-end d'une applciation bancaire et implémentation d'un store Redux suivant l'architecture flux avec react-redux pour gérer les connexions et les données utilisateurs"
     },
     {
         "nom": "Journey Down the Den",
@@ -93,8 +100,9 @@
             "java",
             "scolaire"
         ],
-        "description" : "RPG en tour par tour",
+        "descriptionCourte" : "RPG en tour par tour",
         "image": "jdtd.png",
-        "githubLink" : "JourneyDownTheDen"
+        "githubLink" : "JourneyDownTheDen",
+        "descriptionLongue" : "Quand un antre de terribles monstres est repéré à proximité du village, une seule solution s’offre à vous, constituer la meilleure équipe de combattants pour vaincre ces monstres et protéger votre village ! Choisissez trois villageois parmi un large choix de personnages et personnalisez les pour correspondre le mieux à votre stratégie et descendez toujours plus profond dans l’antre. Construisez la meilleure équipe pour faire face à des situations variées dans ce jeu de stratégie au tour par tour."
     }
 ]
