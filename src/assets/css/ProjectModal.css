@@ -77,4 +77,8 @@
   .ProjectModal .content {
     width: auto;
   }
+  .ProjectModal .content .description {
+    margin: auto;
+    margin-bottom: 40px;
+  }
 }/*# sourceMappingURL=ProjectModal.css.map */
