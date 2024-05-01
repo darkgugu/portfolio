@@ -20,7 +20,12 @@ export const ProjectModal = ({ projet, setIsModaleOpen }) => {
 		}
 	}
 
-	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1025px)' })
+	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
+
+	window.onpopstate = (e) => {
+		e.preventDefault()
+		document.getElementById('close-icon').click()
+	}
 
 	return (
 		<div className="ProjectModal">
@@ -59,6 +64,7 @@ export const ProjectModal = ({ projet, setIsModaleOpen }) => {
 			</div>
 			<img
 				className="close-icon"
+				id="close-icon"
 				alt=""
 				src={closeIcon}
 				onClick={() => closeModale()}
