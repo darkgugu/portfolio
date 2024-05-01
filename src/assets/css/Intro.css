@@ -1,17 +1,25 @@
 body button, body a, body .ProjectPreview {
   cursor: pointer;
 }
+body h2 {
+  font-size: 3em;
+}
+@media (max-width: 425px) {
+  body h2 {
+    font-size: 2em;
+  }
+}
 
 .Intro {
   display: flex;
   align-items: center;
 }
 .Intro img {
-  width: 600px;
+  width: 35%;
 }
 .Intro p {
-  line-height: 70px;
-  font-size: 1.5em;
+  line-height: 35px;
+  font-size: 1.3em;
   padding-left: 40px;
 }
 .Intro p .title {
@@ -21,16 +29,28 @@ body button, body a, body .ProjectPreview {
 .Intro p .title .name {
   color: #4392E6;
 }
-@media (max-width: 1025px) {
+@media (min-width: 1440px) {
+  .Intro p {
+    line-height: 70px;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 768px) {
   .Intro {
     flex-direction: column;
   }
   .Intro img {
-    width: 100%;
+    width: 80%;
   }
   .Intro p {
     text-align: center;
     padding: 0;
     line-height: 53px;
+  }
+}
+@media (max-width: 425px) {
+  .Intro p {
+    font-size: 1.2em;
+    line-height: 35px;
   }
 }/*# sourceMappingURL=Intro.css.map */

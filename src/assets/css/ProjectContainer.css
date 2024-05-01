@@ -9,16 +9,13 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.ProjectContainer h2 {
-  font-size: 3em;
-}
 .ProjectContainer #fakeClear {
   padding: 10px 20px;
   margin: 20px;
   border-radius: 10px;
   border: none;
 }
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   .ProjectContainer {
     width: 100%;
   }

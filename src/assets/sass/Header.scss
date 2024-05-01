@@ -19,12 +19,18 @@
         font-size: 1.3em;
     }
     .cv-button{
-        width: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: min-content;
         height: 40px;
+        padding: 10px;
         border-radius: 10px;
         font-size: 1em;
         background-color: $secondary-color;
         color: aliceblue;
+        overflow: hidden;
+        white-space: nowrap;
     }
     .burger-button{
         height: 35px;
@@ -36,7 +42,7 @@
         padding: 25px 40px;
 
 
-        @media (max-width: 1025px) {
+        @media (max-width: 768px) {
             padding: 25px;
             align-items: center;
         }

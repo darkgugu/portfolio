@@ -1,12 +1,20 @@
 body button, body a, body .ProjectPreview {
   cursor: pointer;
 }
+body h2 {
+  font-size: 3em;
+}
+@media (max-width: 425px) {
+  body h2 {
+    font-size: 2em;
+  }
+}
 
 .Home {
   padding: 0 50px;
   background-color: #DDBDD5;
 }
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   .Home {
     padding: 30px;
   }

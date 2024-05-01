@@ -30,7 +30,7 @@ export const ProjectContainer = () => {
 
 	return (
 		<div className="ProjectContainer" id="projets">
-			<h2>MES PROJETS</h2>
+			<h2>Mes projets</h2>
 			<Sorter />
 			{!isModaleOpen ? (
 				<>
