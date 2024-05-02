@@ -3,6 +3,7 @@ import { useSelector, useStore } from 'react-redux'
 import { selectionSlice } from '../slices/selectionSlice.js'
 import sortingPoints from '../assets/sortingPoints.json'
 import { getSelection } from '../app/selectors.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Sorter = () => {
 	const store = useStore()
