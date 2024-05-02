@@ -1,6 +1,14 @@
 body button, body a, body .ProjectPreview {
   cursor: pointer;
 }
+body h2 {
+  font-size: 3em;
+}
+@media (max-width: 425px) {
+  body h2 {
+    font-size: 2em;
+  }
+}
 
 .Header {
   background-color: #DDBDD5;
@@ -21,12 +29,19 @@ body button, body a, body .ProjectPreview {
   font-size: 1.3em;
 }
 .Header .cv-button {
-  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-min-content;
+  width: min-content;
   height: 40px;
+  padding: 10px;
   border-radius: 10px;
   font-size: 1em;
   background-color: #4392E6;
   color: aliceblue;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .Header .burger-button {
   height: 35px;
@@ -39,7 +54,7 @@ body button, body a, body .ProjectPreview {
   z-index: 2;
   background-color: #DDBDD5;
 }
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   .Header .header-content {
     padding: 25px;
     align-items: center;

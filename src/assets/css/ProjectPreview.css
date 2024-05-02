@@ -24,7 +24,7 @@
 .ProjectPreview .content .desc {
   margin: 0 auto;
 }
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   .ProjectPreview {
     width: 100%;
     margin: 40px 0;

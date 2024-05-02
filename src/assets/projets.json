@@ -20,10 +20,10 @@
             "css",
             "scolaire"
         ],
-        "descriptionCourte" : "Caroussel d'images",
+        "descriptionCourte" : "Carrousel d'images",
         "image": "printit.png",
         "githubLink" : "printit",
-        "descriptionLongue" : "Caroussel d'images réalisé en vanilla JS pour un site d'impressions"
+        "descriptionLongue" : "Carrousel d'images réalisé en vanilla JS pour un site d'impressions"
     },
     {
         "nom": "Portfolio d'architecte d'intérieur",
@@ -37,7 +37,7 @@
         "descriptionCourte" : "Site portfolio avec un back-end fourni",
         "image": "sophiebluel.png",
         "githubLink" : "sophiebluel",
-        "descriptionLongue" : "Site portfolio d'architecte avec un back-end fourni. J'ai sur ce projet réalisé toute la partie login, tri des différents projets et le CRUD : ajout/suppresion/affichage de projets"
+        "descriptionLongue" : "Site portfolio d'architecte avec un back-end fourni. Réalisation de toute la partie login, tri des différents projets et le CRUD : ajout/suppression/affichage de projets"
     },
     {
         "nom": "Kasa",
@@ -77,7 +77,7 @@
         "descriptionCourte" : "Debug et gestion de tests en React",
         "image": "724events.png",
         "githubLink" : "724events",
-        "descriptionLongue" : "Projet de debug d'un site d'évenementiel et gestion des tests React. Réalisation d'un cahier de recette complet pour le site"
+        "descriptionLongue" : "Projet de debug d'un site d'événementiel et gestion des tests React. Réalisation d'un cahier de recette complet pour le site"
     },
     {
         "nom": "Argent Bank",
@@ -92,7 +92,7 @@
         "descriptionCourte" : "Front-end d'une application bancaire avec Redux",
         "image": "argentbank.png",
         "githubLink" : "argent-bank",
-        "descriptionLongue" : "Réalisation du front-end d'une applciation bancaire et implémentation d'un store Redux suivant l'architecture flux avec react-redux pour gérer les connexions et les données utilisateurs"
+        "descriptionLongue" : "Réalisation du front-end d'une application bancaire et implémentation d'un store Redux suivant l'architecture flux avec react-redux pour gérer les connexions et les données utilisateurs"
     },
     {
         "nom": "Journey Down the Den",
@@ -103,6 +103,6 @@
         "descriptionCourte" : "RPG en tour par tour",
         "image": "jdtd.png",
         "githubLink" : "JourneyDownTheDen",
-        "descriptionLongue" : "Quand un antre de terribles monstres est repéré à proximité du village, une seule solution s’offre à vous, constituer la meilleure équipe de combattants pour vaincre ces monstres et protéger votre village ! Choisissez trois villageois parmi un large choix de personnages et personnalisez les pour correspondre le mieux à votre stratégie et descendez toujours plus profond dans l’antre. Construisez la meilleure équipe pour faire face à des situations variées dans ce jeu de stratégie au tour par tour."
+        "descriptionLongue" : "Quand l'antre de terribles monstres est repéré à proximité du village, une seule solution s’offre à vous : constituer la meilleure équipe de combattants pour les vaincre et protéger votre village ! Choisissez trois villageois parmi un large choix de personnages, personnalisez-les, affinez votre stratégie et descendez toujours plus profond dans l’antre. Réunissez la meilleure équipe pour faire face à des situations variées dans ce jeu de stratégie au tour par tour."
     }
 ]

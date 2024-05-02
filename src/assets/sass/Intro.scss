@@ -5,11 +5,11 @@
     display: flex;
     align-items: center;
     img{
-        width: 600px;
+        width: 35%;
     }
     p{
-        line-height: 70px;
-        font-size: 1.5em;
+        line-height: 35px;
+        font-size: 1.3em;
         padding-left: 40px;
         .title{
             font-size: 1.2em;
@@ -20,15 +20,30 @@
         }
     }
 
-    @media (max-width: 1025px){
+    @media (min-width: 1440px){
+        p{
+            line-height: 70px;
+            font-size: 1.5em;
+        }
+    }
+
+    @media (max-width: 768px){
         flex-direction: column;
         img{
-            width: 100%;
+            width: 80%;
         }
         p{
             text-align: center;
             padding: 0;
             line-height: 53px;
+        }
+    }
+
+
+    @media (max-width: 425px){
+        p{
+            font-size: 1.2em;
+            line-height: 35px;
         }
     }
 }

@@ -8,9 +8,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    h2{
-        font-size: 3em;
-    }
     #fakeClear{
         padding: 10px 20px;
         margin: 20px;
@@ -18,7 +15,7 @@
         border: none;
     }
 
-    @media (max-width: 1025px){
+    @media (max-width: 768px){
         width: 100%;
     }
 }

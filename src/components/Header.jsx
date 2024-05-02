@@ -7,7 +7,7 @@ import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 export const Header = () => {
-	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1025px)' })
+	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
 	const [isBurgerOpen, setIsBurgerOpen] = useState(false)
 
 	const handleClick = () => {
