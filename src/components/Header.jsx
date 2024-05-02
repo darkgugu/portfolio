@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import cv from '../assets/CV_DURET_Icham.pdf'
 import burgerIcon from '../assets/images/burgerMenu.png'
 import { useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 
 export const Header = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
@@ -59,20 +60,30 @@ export const Header = () => {
 					/>
 				)}
 			</div>
-
-			{isBurgerOpen ? (
-				<div className="burger-menu">
-					{' '}
-					<nav>
-						<a href="#accueil">Accueil</a>
-						<a href="#stack">Stack Technique</a>
-						<a href="#projets">Projets</a>
-					</nav>
-					<button className="cv-button" onClick={() => handleClick()}>
-						Mon CV
-					</button>
-				</div>
-			) : null}
+			<AnimatePresence>
+				{isBurgerOpen ? (
+					<motion.div
+						key="burger-menu"
+						className={`burger-menu`}
+						initial={{ translateY: -250 }}
+						animate={{ translateY: 0 }}
+						transition={{ duration: 0.3 }}
+						exit={{ translateY: -250 }}
+					>
+						<nav>
+							<a href="#accueil">Accueil</a>
+							<a href="#stack">Stack Technique</a>
+							<a href="#projets">Projets</a>
+						</nav>
+						<button
+							className="cv-button"
+							onClick={() => handleClick()}
+						>
+							Mon CV
+						</button>
+					</motion.div>
+				) : null}
+			</AnimatePresence>
 		</header>
 	)
 }

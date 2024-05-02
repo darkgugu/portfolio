@@ -41,6 +41,9 @@
         justify-content: space-between;
         padding: 25px 40px;
 
+        position: relative;
+        z-index: 2;
+        background-color: $main-color;
 
         @media (max-width: 768px) {
             padding: 25px;
@@ -55,7 +58,11 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        
+        position: relative;
+        z-index: 1;
+
+        //height: 0;
+
         nav{
             flex-direction: column;
             a{
@@ -68,6 +75,5 @@
             width: auto;
             margin-bottom: 20px;
         }
-
     }
 }
