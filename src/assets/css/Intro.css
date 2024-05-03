@@ -15,7 +15,7 @@ body h2 {
   align-items: center;
 }
 .Intro img {
-  width: 35%;
+  width: 25%;
 }
 .Intro p {
   line-height: 35px;
@@ -27,7 +27,7 @@ body h2 {
   font-weight: bold;
 }
 .Intro p .title .name {
-  color: #4392E6;
+  color: #C25E00;
 }
 @media (min-width: 1440px) {
   .Intro p {

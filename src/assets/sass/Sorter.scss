@@ -1,11 +1,16 @@
+@import "./partials/common";
+
 .Sorter{
     button{
         padding: 10px 20px;
         margin: 20px;
         border-radius: 10px;
         border: none;
+        background-color: $secondary-color;
+        color: white;
     }
     .selected{
-        background-color: aquamarine;
+        background-color: lightcoral;
+        border: 3px white solid;
     }
 }
