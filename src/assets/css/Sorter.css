@@ -1,9 +1,24 @@
+body button, body a, body .ProjectPreview {
+  cursor: pointer;
+}
+body h2 {
+  font-size: 3em;
+}
+@media (max-width: 425px) {
+  body h2 {
+    font-size: 2em;
+  }
+}
+
 .Sorter button {
   padding: 10px 20px;
   margin: 20px;
   border-radius: 10px;
   border: none;
+  background-color: #C25E00;
+  color: white;
 }
 .Sorter .selected {
-  background-color: aquamarine;
+  background-color: lightcoral;
+  border: 3px white solid;
 }/*# sourceMappingURL=Sorter.css.map */
